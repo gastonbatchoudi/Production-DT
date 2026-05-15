@@ -1,0 +1,97 @@
+# Virtual Environment
+avosdim/
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+.jupyter
+
+# Data & Outputs (sensitive/large files)
+data/
+Forecasting/Outputs/
+Forecasting/Data/
+Optim/Python/Outputs/
+Optim/Outputs/
+Optim/Data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# OS
+Thumbs.db
+.DS_Store
+*.tmp
+
+# Dependencies that may be large
+scipy-*.whl
+grb*.msx
+gurobi*.log
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+*.egg
+*.whl
+*.tar.gz
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# .mod files outputs
+output/
+results/
