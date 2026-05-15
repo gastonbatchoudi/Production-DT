@@ -1,0 +1,29 @@
+# Optimization Module
+
+## Overview
+
+The Optimization module provides multiple solver options for factory production planning:
+- **Gurobi** (Exact - Commercial)
+- **GLPK** (Exact - Free/GPL)
+- **Simulated Annealing** (Heuristic - Free)
+
+## Running the Optimization
+
+### Command Line
+```bash
+cd Optim/Python/src
+python Main.py
+```
+
+### Configuration
+Edit `config.py` to adjust:
+- Default forecast file
+- Temperature parameters for Simulated Annealing
+- Storage capacity
+- Team constraints
+
+## Output Files
+Results are saved in `Optim/Python/Outputs/`:
+- `solution_*_x.csv` - Production matrices
+- `solution_*_s.csv` - Stock matrices
+- `objectives.csv` - Pareto front
